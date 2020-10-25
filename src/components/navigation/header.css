@@ -1,0 +1,41 @@
+body {
+  background: #f2f2f2 !important;
+}
+nav {
+  padding: 0 30px;
+  background: white;
+}
+.header {
+  height: 57px;
+  align-items: center;
+}
+
+.header__logo {
+  text-align: center;
+}
+.kollab-logo {
+  color: #4e4e4e;
+  font-weight: bold;
+  font-size: 18px;
+}
+.header-menu {
+  border-bottom: none !important;
+  justify-items: flex-end !important;
+  margin-left: auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 !important;
+  list-style: none;
+}
+.menu li {
+  padding: 0 20px;
+}
+.menu li:last-child {
+  padding-right: 0px;
+}
+.menu li:not(:last-child) {
+  border-right: 1px solid gray;
+}
