@@ -1,6 +1,11 @@
 import React from "react";
 import { Row, Col, Menu, Dropdown } from "antd";
-import { MenuOutlined, BellOutlined, DownOutlined } from "@ant-design/icons";
+import {
+  MenuOutlined,
+  BellOutlined,
+  DownOutlined,
+  QuestionCircleOutlined,
+} from "@ant-design/icons";
 
 import "./header.css";
 const menu = (
@@ -42,20 +47,37 @@ export const Header = () => {
         <Col span={8}>
           <ul className="menu">
             <li>
-              <Dropdown overlay={menu}>
+              <Dropdown overlay={menu} placement="bottomRight" trigger="click">
                 <div
-                  className="ant-dropdown-link"
+                  className="menu-link__item"
                   onClick={(e) => e.preventDefault()}
                 >
-                  John Doe
+                  <div className="user-icon"></div>
+                  <span className="dropdown-text">John Doe</span>
                   <DownOutlined />
                 </div>
               </Dropdown>
             </li>
             <li>
-              <BellOutlined />
+              <Dropdown overlay={menu} placement="bottomRight" trigger="click">
+                <div
+                  className="menu-link__item"
+                  onClick={(e) => e.preventDefault()}
+                >
+                  <BellOutlined />
+                </div>
+              </Dropdown>
             </li>
-            <li>Link Item 03</li>
+            <li>
+              <Dropdown overlay={menu} placement="bottomRight" trigger="click">
+                <div
+                  className="menu-link__item"
+                  onClick={(e) => e.preventDefault()}
+                >
+                  <QuestionCircleOutlined />
+                </div>
+              </Dropdown>
+            </li>
           </ul>
         </Col>
       </Row>

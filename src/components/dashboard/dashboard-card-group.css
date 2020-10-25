@@ -1,0 +1,14 @@
+.dashboard-card-group {
+  margin-top: 40px;
+  padding: 0 30px;
+}
+.card-group-item {
+  width: inherit !important;
+  border-radius: 5px !important;
+}
+.ant-card-head {
+  border: none;
+}
+.ant-card-body {
+  padding: 0 24px !important;
+}
