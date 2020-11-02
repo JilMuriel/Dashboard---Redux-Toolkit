@@ -1,53 +1,21 @@
 import React from "react";
 
-import { Card, Row, Col } from "antd";
+import { Row } from "antd";
+import DashboardCardItem from "./dashboard-card-item";
 import "./dashboard-card-group.css";
 
 export const DashboardCardGroup = () => {
+  const gridStyle = {
+    width: "25%",
+    textAlign: "center",
+  };
   return (
     <div className="dashboard-card-group">
-      <Row gutter={20}>
-        <Col lg={6}>
-          <Card
-            className="card-group-item"
-            title={<div>Card title</div>}
-            actions={[<div>Card title</div>]}
-            bordered={false}
-            hoverable
-          >
-            Card content
-          </Card>
-        </Col>
-        <Col lg={6}>
-          <Card
-            className="card-group-item"
-            title="Card title"
-            bordered={false}
-            hoverable
-          >
-            Card content
-          </Card>
-        </Col>
-        <Col lg={6}>
-          <Card
-            className="card-group-item"
-            title="Card title"
-            bordered={false}
-            hoverable
-          >
-            Card content
-          </Card>
-        </Col>
-        <Col lg={6}>
-          <Card
-            className="card-group-item"
-            title="Card title"
-            bordered={false}
-            hoverable
-          >
-            Card content
-          </Card>
-        </Col>
+      <Row gutter={[16, 24]}>
+        <DashboardCardItem />
+        <DashboardCardItem />
+        <DashboardCardItem />
+        <DashboardCardItem />
       </Row>
     </div>
   );
