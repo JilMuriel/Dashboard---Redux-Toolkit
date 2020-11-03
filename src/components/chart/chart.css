@@ -1,0 +1,11 @@
+.chart-wrapper {
+  padding: 0 30px;
+  margin-bottom: 24px;
+}
+.chart-card {
+  height: auto !important;
+}
+.chart-card__body {
+  height: 500px;
+  padding: 20px 40px;
+}
