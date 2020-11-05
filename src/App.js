@@ -7,8 +7,9 @@ import "antd/dist/antd.css";
 function App() {
   return (
     <div>
-      <Header />
-      <DashboardPage />
+      <Header>
+        <DashboardPage />
+      </Header>
     </div>
   );
 }

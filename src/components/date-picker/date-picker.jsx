@@ -15,12 +15,10 @@ export const DateGroup = () => {
 
   return (
     <div className="date-picker">
-      <Space direction="vertical">
+      <Space>
         <Select size={date} placeholder="Choose a day" style={{ width: 160 }}>
           <Option>Last 7 days</Option>
         </Select>
-      </Space>
-      <Space direction="vertical">
         <RangePicker
           size={date}
           defaultValue={[

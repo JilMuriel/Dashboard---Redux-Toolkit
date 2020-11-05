@@ -1,8 +1,8 @@
 import React from "react";
 import { PieChartOutlined, QuestionCircleFilled } from "@ant-design/icons";
-import "./dashboard-header.css";
+import "./header-secondary.css";
 
-export const DashboardHeader = () => {
+export const HeaderSecondary = () => {
   return (
     <div className="dashboard-header">
       <div className="dashboard-header__logo">
@@ -14,4 +14,4 @@ export const DashboardHeader = () => {
   );
 };
 
-export default DashboardHeader;
+export default HeaderSecondary;
