@@ -1,0 +1,25 @@
+.sub-navigation {
+  padding: 0 30px;
+  height: 50px;
+  background: white;
+  display: flex;
+  padding-bottom: 20px;
+}
+.sub-navigation__inner {
+  display: flex;
+  align-items: center;
+  font-size: 19px;
+}
+.sub-navigation__icon {
+  font-weight: 600;
+  font-size: 22px;
+  color: teal !important;
+}
+.sub-navigation__button {
+  font-size: 14px;
+  color: rgb(161, 161, 161) !important;
+}
+.sub-navigation__title {
+  font-size: 25px;
+  font-weight: 600;
+}

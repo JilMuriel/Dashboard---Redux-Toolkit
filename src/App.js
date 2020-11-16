@@ -1,15 +1,12 @@
 import React from "react";
 
-import Header from "./components/navigation/header";
 import DashboardPage from "./components/dashboard/dashboard-page";
 import "antd/dist/antd.css";
 
 function App() {
   return (
     <div>
-      <Header>
-        <DashboardPage />
-      </Header>
+      <DashboardPage />
     </div>
   );
 }
