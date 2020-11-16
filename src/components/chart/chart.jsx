@@ -49,7 +49,6 @@ export const Chart = () => {
             </Col>
             <Col span={6} className="chart__content">asd</Col>
           </Row>
-          <Doughnut />
         </div>
       </Card>
     </div>

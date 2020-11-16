@@ -15,6 +15,7 @@ export const salesSlice = createSlice({
         amount: 170000,
       },
     ],
+    remarks: "Average Order Value",
     avargeOrderValue: 1000000,
   },
 });
