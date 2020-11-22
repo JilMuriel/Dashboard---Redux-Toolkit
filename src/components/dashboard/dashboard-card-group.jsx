@@ -13,9 +13,9 @@ export const DashboardCardGroup = () => {
     <div className="dashboard-card-group">
       <Row gutter={[16, 24]}>
         <DashboardCardItem />
+        {/* <DashboardCardItem />
         <DashboardCardItem />
-        <DashboardCardItem />
-        <DashboardCardItem />
+        <DashboardCardItem /> */}
       </Row>
     </div>
   );
